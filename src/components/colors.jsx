@@ -5,19 +5,19 @@ function Colors() {
     {
       id: "blue",
       name: "Titânium Azul",
-      image: "public/img/colors_blue__li170wg4gkae_medium.jpg",
+      image: "/img/colors_blue__li170wg4gkae_medium.jpg",
       colorClass: "bg-blue-500",
     },
     {
       id: "silver",
       name: "Titânium Natural",
-      image: "public/img/colors_silver__eb8fu7zfvwmu_medium.jpg",
+      image: "/img/colors_silver__eb8fu7zfvwmu_medium.jpg",
       colorClass: "bg-gray-300",
     },
     {
       id: "orange",
       name: "Titânium Laranja",
-      image: "public/img/colors_orange__cr2oq3n1dwk2_medium.jpg",
+      image: "/img/colors_orange__cr2oq3n1dwk2_medium.jpg",
       colorClass: "bg-orange-500",
     },
   ];
@@ -76,7 +76,8 @@ function Colors() {
             <button
               key={color.id}
               onClick={() => setSelectedColor(color.id)}
-              className={`relative transition-wall duration-300 curosr-pointer`}
+              className={`relative transition-npm run build
+                all duration-300 curosr-pointer`}
             >
               <div
                 className={`w-16 h-16 rounded-full border-4 ${color.colorClass} ${selectedColor === color.id ? "border-white" : "border-gray-600"}`}
