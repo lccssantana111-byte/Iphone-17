@@ -42,7 +42,7 @@ function Highlights() {
           </p>
           <img
             className="w-full rounded-2xl mb-4"
-            src="public/img/initial__d2ghrz27b54y_medium_2x.jpg"
+            src="/img/initial__d2ghrz27b54y_medium_2x.jpg"
             alt="chip a18"
           />
           <ul className="space-y-3 text-gray-300">
