@@ -53,11 +53,11 @@ function Colors() {
 
         <div className=" flex justify-center mb-12">
           <div className="relative w-full max-w-3xl">
-            <div className="relative flex items-center justify-center min-h-[500px]">
+            <div className="relative flex items-center justify-center min-h[500px]">
               <img
                 src={colors.find((color) => color.id === selectedColor).image}
                 alt="iphone 17"
-                className="max-w-full max-h-[600px] mx-auto"
+                className="max-w-full max-h- [600px] mx-auto"
               ></img>
             </div>
 
@@ -89,7 +89,7 @@ function Colors() {
           {models.map((model, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-gray-900 to-transparent rounded-3xl p-8 border border-gray-800"
+              className="bg-linear-to-br from-gray-900 to-transparent rounded-3xl p-8 border border-gray-800"
             >
               <div className="text-4xl mb-4">📱</div>
               <h3 className="text-2xl font-bold mb-3">{model.name}</h3>
