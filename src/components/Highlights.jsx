@@ -13,7 +13,7 @@ function Highlights() {
           <div className="bg-gray-900 rounded-3xl p-8">
             <img
               className="w-full rounded-2xl mb-4"
-              src="/public/img/highlights_design_endframe__eu8gj0kqlmoi_large.jpg"
+              src="/img/highlights_design_endframe__eu8gj0kqlmoi_large.jpg"
               alt="Titânio Premium"
             />
             <h3 className="font-bold mb-2 text-3xl">Titânio Premium</h3>
@@ -25,7 +25,7 @@ function Highlights() {
           <div className="bg-gray-900 rounded-3xl p-8">
             <img
               className="font-bold mb-2 text-3xl"
-              src="public/img/highlights_ios__e4213yr3208y_large.jpg"
+              src="/img/highlights_ios__e4213yr3208y_large.jpg"
               alt="ios 2026"
             />
             <h3 className="font-bold mb-2 text-3xl">IOS 26</h3>
